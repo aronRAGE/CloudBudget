@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <title>CloudBudget</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-info">
+                <a href="#" class="logo">
+                    <svg class="logo-cloud-deco-1" width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.605 8.05002C20.605 7.61502 20.75 7.18002 20.75 6.60002C20.75 3.41002 18.14 0.800018 14.95 0.800018C12.63 0.800018 10.745 2.10502 9.73001 3.99002C9.44001 3.84502 8.86001 3.70002 8.42501 3.70002C6.39501 3.70002 4.80001 5.29502 4.80001 7.32502C4.80001 7.61502 4.80001 7.90502 4.94501 8.05002C2.33501 8.48502 0.450012 10.515 0.450012 13.125C0.450012 15.88 2.77001 18.2 5.52501 18.2H20.025C22.78 18.2 25.1 15.88 25.1 13.125C25.1 10.515 23.215 8.34002 20.605 8.05002Z" fill="white"/>
+                    </svg>
+                    <svg class="logo-cloud-deco-2" width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.605 8.05002C20.605 7.61502 20.75 7.18002 20.75 6.60002C20.75 3.41002 18.14 0.800018 14.95 0.800018C12.63 0.800018 10.745 2.10502 9.73001 3.99002C9.44001 3.84502 8.86001 3.70002 8.42501 3.70002C6.39501 3.70002 4.80001 5.29502 4.80001 7.32502C4.80001 7.61502 4.80001 7.90502 4.94501 8.05002C2.33501 8.48502 0.450012 10.515 0.450012 13.125C0.450012 15.88 2.77001 18.2 5.52501 18.2H20.025C22.78 18.2 25.1 15.88 25.1 13.125C25.1 10.515 23.215 8.34002 20.605 8.05002Z" fill="white"/>
+                    </svg>
+                    <svg class="logo-cloud-deco-3" width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.605 8.05002C20.605 7.61502 20.75 7.18002 20.75 6.60002C20.75 3.41002 18.14 0.800018 14.95 0.800018C12.63 0.800018 10.745 2.10502 9.73001 3.99002C9.44001 3.84502 8.86001 3.70002 8.42501 3.70002C6.39501 3.70002 4.80001 5.29502 4.80001 7.32502C4.80001 7.61502 4.80001 7.90502 4.94501 8.05002C2.33501 8.48502 0.450012 10.515 0.450012 13.125C0.450012 15.88 2.77001 18.2 5.52501 18.2H20.025C22.78 18.2 25.1 15.88 25.1 13.125C25.1 10.515 23.215 8.34002 20.605 8.05002Z" fill="white"/>
+                    </svg>
+                    <svg class="logo-cloud" width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.605 8.05002C20.605 7.61502 20.75 7.18002 20.75 6.60002C20.75 3.41002 18.14 0.800018 14.95 0.800018C12.63 0.800018 10.745 2.10502 9.73001 3.99002C9.44001 3.84502 8.86001 3.70002 8.42501 3.70002C6.39501 3.70002 4.80001 5.29502 4.80001 7.32502C4.80001 7.61502 4.80001 7.90502 4.94501 8.05002C2.33501 8.48502 0.450012 10.515 0.450012 13.125C0.450012 15.88 2.77001 18.2 5.52501 18.2H20.025C22.78 18.2 25.1 15.88 25.1 13.125C25.1 10.515 23.215 8.34002 20.605 8.05002Z" fill="white"/>
+                    </svg>
+                     <span>CloudBudget</span>   
+                </a>
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu-li"><a href="#">OVERVIEW</a></li>
+                        <li class="menu-li"><a href="#">FEATURES</a></li>
+                        <li class="menu-li"><a href="#">TECHNOLOGY</a></li>
+                        <li class="menu-li"><a href="#">CONTACT</a></li>
+                        <li class="menu-li"><a href="#">Sign up</a></li>
+                    </ul>
+                </nav>
+                <div class="lang-and-login">
+                    <div class="lang">
+                        <img src="img/langENG.png" alt="English language">
+                        <span>en</span>
+                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.7727 0.273438H1.22735C0.881062 0.273438 0.687703 0.639062 0.902156 0.888672L6.67481 7.58242C6.84005 7.77402 7.15821 7.77402 7.3252 7.58242L13.0979 0.888672C13.3123 0.639062 13.119 0.273438 12.7727 0.273438Z" fill="white"/>
+                        </svg> 
+                    </div>
+                    <div class="login">
+                        <button class="btn btn-login"><a href="#">LOGIN</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-hero">
+                <h1>CloudBudget</h1>
+                <h2>Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
+                    Up to €4.99
+                </h2>
+                <button class="btn btn-hero"><a href="#">Sign Up</a></button>
+            </div>
+        </div>
+    </header>
+    <section class="info-section-padding how-to-use">
+        <div class="container row">
+            <div class="info-block col-6">
+                <h3 class="info-header">
+                    Easy to Use Cloud Budget Management Software
+                </h3>
+                <div class="info-content">
+                    Our software is made so you can access
+                     and manage your budget and expenses
+                      online at any time from any device.
+                       It provides detailed income and
+                        expense reports with graphs so you
+                         can easilly see your spending
+                          patterns and budget at a glance.
+                           Read below to find out more.
+                </div>
+                <a href="#" class="learn-more">
+                    Learn-more
+                </a>
+            </div>
+            <div class="image-block col-6">
+                <img src="img/howToUseIllustration.png" alt="how To Use Illustration">
+                <div class="how-to-use-deco">
+                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.75 8L0.5 15.875V0.125L11.75 8Z" fill="white"/>
+                    </svg>
+                </div>                   
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <h3 class="info-header features-header">
+                Features
+            </h3>
+            <div class="features-content">
+                <div class="features-block">
+                    <img class="section-deco" src="img/featuresDeco1.png" alt="">
+                    <div class="info-block-content">
+                        <h4 class="info-block-header">
+                            Supports All Currencies and Cards
+                        </h4>
+                        <span>
+                            We support all popular currencies 
+                            and is fully customizable to add
+                        </span>
+                        <a href="#" class="learn-more">Read More</a>
+                    </div>
+                </div>
+                <div class="features-block">
+                    <img class="section-deco" src="img/featuresDeco2.png" alt="">
+                    <div class="info-block-content">
+                        <h4 class="info-block-header">
+                            Manage your expenses on the go
+                        </h4>
+                        <span>
+                            You can access your account
+                             from anywhere in the world on any device
+                        </span>
+                        <a href="#" class="learn-more">Read More</a>
+                    </div>
+                </div>
+                <div class="features-block">
+                    <img class="section-deco" src="img/featuresDeco3.png" alt="">
+                    <div class="info-block-content">
+                        <h4 class="info-block-header">
+                            Cloud Budget Management Software
+                        </h4>
+                        <span>
+                            Our software is made so
+                             you can access and manage your budget
+                        </span>
+                        <a href="#" class="learn-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="technology">
+        <div class="container">
+            <h3 class="info-header features-header">
+                technology
+            </h3>
+            <div class="features-content">
+                <div class="features-block">
+                    
+                    <div class="info-block-content">
+                        <h4 class="info-block-header">
+                            Supports All Currencies and Cards
+                        </h4>
+                        <span>
+                            We support all popular currencies 
+                            and is fully customizable to add
+                        </span>
+                        <a href="#" class="learn-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+</body>
+</html>
