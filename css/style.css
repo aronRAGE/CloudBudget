@@ -294,15 +294,15 @@ a,span,*::before,*::after{
     background-color: #FAFAFA;
     padding: 65px 0 125px 0;
 }
-.features-header{
+.info-header{
     text-align: center;
     margin-bottom: 65px;
 }
-.features-content{
+.info-content{
     display: flex;
     justify-content: space-around;
 }
-.features-block{
+.info-block{
     border-radius: 8px;
     padding: 25px;
     position: relative;
@@ -312,7 +312,7 @@ a,span,*::before,*::after{
     top: 0;
     left: 0;
 }
-.features-block:hover .info-block-content{
+.info-block:hover .info-block-content{
     transform: translateY(50%);
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -343,7 +343,28 @@ a,span,*::before,*::after{
 /*==========FEATURES END==========*/
 
 /*==========TECHNOLOGY START==========*/
+.technology{
 
+    padding: 65px 0 110px 0;
+}
+.technology-deco{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+    transform: translateX(-50%);
+}
+.technology-block-content{
+    background-color: transparent;
+    transform: translateY(0%);
+}
+.info-block-technology:hover .info-block-content{
+    transform: translateY(25%);
+    box-shadow: 0px 15px 15px rgb(0 0 0 / 10%);
+}
 /*==========TECHNOLOGY END==========*/
 
 
